@@ -1,6 +1,7 @@
 package com.natamus.configurablefurnaceburntime;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveFurnaceEvents;
 import com.natamus.configurablefurnaceburntime.events.FurnaceBurnEvent;
 import com.natamus.configurablefurnaceburntime.util.Reference;
@@ -11,6 +12,10 @@ public class ModFabric implements ModInitializer {
 	
 	@Override
 	public void onInitialize() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		setGlobalConstants();
 		ModCommon.init();
 
