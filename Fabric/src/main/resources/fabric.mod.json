@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "configurablefurnaceburntime",
-  "version": "2.3",
+  "version": "2.4",
 
   "name": "Configurable Furnace Burn Time",
   "description": "Allows users to change the fuel burn time in a furnace globally via a config.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.21",
     "java": ">=21",
-    "collective": ">=7.61"
+    "collective": ">=7.78"
   },
 
   "custom": {
@@ -44,11 +44,9 @@
 	  " Alister",
 	  " Andrean Olgo",
 	  " aternosorg",
-	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " Rare Students",
+	  " Nahuel Fernandez",
 	  " Shana Gitnick",
 	  " Tyler Behl"
   ]
