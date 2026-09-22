@@ -3,7 +3,6 @@ package com.natamus.configurablefurnaceburntime;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.configurablefurnaceburntime.forge.config.IntegrateForgeConfig;
-import com.natamus.configurablefurnaceburntime.forge.events.ForgeFurnaceBurnEvent;
 import com.natamus.configurablefurnaceburntime.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
@@ -30,7 +29,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	ForgeFurnaceBurnEvent.registerEventsInBus();
+
 	}
 
 	private static void setGlobalConstants() {

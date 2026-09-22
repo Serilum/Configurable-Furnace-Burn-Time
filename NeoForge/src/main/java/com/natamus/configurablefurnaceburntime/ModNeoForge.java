@@ -3,9 +3,7 @@ package com.natamus.configurablefurnaceburntime;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.configurablefurnaceburntime.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.configurablefurnaceburntime.neoforge.events.NeoForgeFurnaceBurnEvent;
 import com.natamus.configurablefurnaceburntime.util.Reference;
-import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;
@@ -30,7 +28,6 @@ public class ModNeoForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-		NeoForge.EVENT_BUS.register(NeoForgeFurnaceBurnEvent.class);
 	}
 
 	private static void setGlobalConstants() {
