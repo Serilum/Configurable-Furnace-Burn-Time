@@ -1,10 +1,10 @@
-package com.natamus.configurablefurnaceburntime;
+package com.serilum.configurablefurnaceburntime;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.configurablefurnaceburntime.forge.config.IntegrateForgeConfig;
-import com.natamus.configurablefurnaceburntime.forge.events.ForgeFurnaceBurnEvent;
-import com.natamus.configurablefurnaceburntime.util.Reference;
+import com.serilum.configurablefurnaceburntime.forge.config.IntegrateForgeConfig;
+import com.serilum.configurablefurnaceburntime.forge.events.ForgeFurnaceBurnEvent;
+import com.serilum.configurablefurnaceburntime.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
@@ -30,7 +30,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	ForgeFurnaceBurnEvent.registerEventsInBus();
+		ForgeFurnaceBurnEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {

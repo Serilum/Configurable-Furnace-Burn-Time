@@ -1,6 +1,6 @@
-package com.natamus.configurablefurnaceburntime.forge.events;
+package com.serilum.configurablefurnaceburntime.forge.events;
 
-import com.natamus.configurablefurnaceburntime.events.FurnaceBurnEvent;
+import com.serilum.configurablefurnaceburntime.events.FurnaceBurnEvent;
 import net.minecraftforge.event.furnace.FurnaceFuelBurnTimeEvent;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.eventbus.api.listener.SubscribeEvent;

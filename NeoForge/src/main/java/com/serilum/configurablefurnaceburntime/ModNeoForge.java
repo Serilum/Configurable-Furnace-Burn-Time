@@ -1,10 +1,10 @@
-package com.natamus.configurablefurnaceburntime;
+package com.serilum.configurablefurnaceburntime;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.configurablefurnaceburntime.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.configurablefurnaceburntime.neoforge.events.NeoForgeFurnaceBurnEvent;
-import com.natamus.configurablefurnaceburntime.util.Reference;
+import com.serilum.configurablefurnaceburntime.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.configurablefurnaceburntime.neoforge.events.NeoForgeFurnaceBurnEvent;
+import com.serilum.configurablefurnaceburntime.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;

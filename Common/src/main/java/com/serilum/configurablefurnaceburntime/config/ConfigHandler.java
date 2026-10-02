@@ -1,7 +1,7 @@
-package com.natamus.configurablefurnaceburntime.config;
+package com.serilum.configurablefurnaceburntime.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.configurablefurnaceburntime.util.Reference;
+import com.serilum.configurablefurnaceburntime.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
