@@ -1,6 +1,6 @@
-package com.natamus.configurablefurnaceburntime.neoforge.events;
+package com.serilum.configurablefurnaceburntime.neoforge.events;
 
-import com.natamus.configurablefurnaceburntime.events.FurnaceBurnEvent;
+import com.serilum.configurablefurnaceburntime.events.FurnaceBurnEvent;
 import net.neoforged.neoforge.event.furnace.FurnaceFuelBurnTimeEvent;
 import net.neoforged.bus.api.SubscribeEvent;
 

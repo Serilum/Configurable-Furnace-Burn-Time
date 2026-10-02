@@ -1,6 +1,6 @@
-package com.natamus.configurablefurnaceburntime;
+package com.serilum.configurablefurnaceburntime;
 
-import com.natamus.configurablefurnaceburntime.config.ConfigHandler;
+import com.serilum.configurablefurnaceburntime.config.ConfigHandler;
 
 public class ModCommon {
 
