@@ -1,10 +1,10 @@
-package com.natamus.configurablefurnaceburntime;
+package com.serilum.configurablefurnaceburntime;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveFurnaceEvents;
-import com.natamus.configurablefurnaceburntime.events.FurnaceBurnEvent;
-import com.natamus.configurablefurnaceburntime.util.Reference;
+import com.serilum.configurablefurnaceburntime.events.FurnaceBurnEvent;
+import com.serilum.configurablefurnaceburntime.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.world.item.ItemStack;
 
