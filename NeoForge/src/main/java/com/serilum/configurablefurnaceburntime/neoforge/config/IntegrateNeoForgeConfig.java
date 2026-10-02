@@ -1,6 +1,6 @@
-package com.natamus.configurablefurnaceburntime.neoforge.config;
+package com.serilum.configurablefurnaceburntime.neoforge.config;
 
-import com.natamus.configurablefurnaceburntime.util.Reference;
+import com.serilum.configurablefurnaceburntime.util.Reference;
 import com.natamus.collective.config.DuskConfig;
 import net.minecraft.client.gui.screens.Screen;
 import net.neoforged.fml.ModContainer;

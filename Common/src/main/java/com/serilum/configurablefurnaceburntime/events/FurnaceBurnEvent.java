@@ -1,6 +1,6 @@
-package com.natamus.configurablefurnaceburntime.events;
+package com.serilum.configurablefurnaceburntime.events;
 
-import com.natamus.configurablefurnaceburntime.config.ConfigHandler;
+import com.serilum.configurablefurnaceburntime.config.ConfigHandler;
 
 import net.minecraft.world.item.ItemStack;
 

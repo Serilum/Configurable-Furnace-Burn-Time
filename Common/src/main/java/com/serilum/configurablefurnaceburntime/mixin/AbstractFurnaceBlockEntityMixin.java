@@ -1,6 +1,6 @@
-package com.natamus.configurablefurnaceburntime.mixin;
+package com.serilum.configurablefurnaceburntime.mixin;
 
-import com.natamus.configurablefurnaceburntime.events.FurnaceBurnEvent;
+import com.serilum.configurablefurnaceburntime.events.FurnaceBurnEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity;

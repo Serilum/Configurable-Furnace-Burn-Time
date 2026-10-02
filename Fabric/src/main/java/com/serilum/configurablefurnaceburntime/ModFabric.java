@@ -1,8 +1,8 @@
-package com.natamus.configurablefurnaceburntime;
+package com.serilum.configurablefurnaceburntime;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.configurablefurnaceburntime.util.Reference;
+import com.serilum.configurablefurnaceburntime.util.Reference;
 import net.fabricmc.api.ModInitializer;
 
 public class ModFabric implements ModInitializer {
